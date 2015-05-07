@@ -31,6 +31,7 @@
     </div>
 
 <?php
+	error_reporting(0);
     $host="localhost";
     $user="root";
     $pass="ZasadaKTV3350";
@@ -41,7 +42,7 @@
 	//запрос на инсерт в бд
 	$_POST['Date'] = date("Y-m-d H:i:s");
 	$_POST['Pic'] = "none";
-	if (isset($_POST['User'])){$_POST['User'] = "Anonymous";};
+	if ($_POST['User'] == null){$_POST['User'] = "Anonymous";};
 	if (isset($_POST["Heading"],$_POST["Content"])) {
     $sql = mysql_query("INSERT INTO `news` (`Date`, `User`, `Content`, `Heading`, `Pic`) 
                         VALUES ('".$_POST['Date']."','".$_POST['User']."','".$_POST['Content']."','".$_POST['Heading']."','".$_POST['Pic']."')
@@ -59,11 +60,11 @@
 	<div class="container">
 		<form action="" method="post">
         	<p><h2>Настоятельно не рекомендую нажимать F5 для обновления страницы, если уже была добавлена запись, поскольку тогда можно случайно сделать "дубликат" записи в БД</h2></p>
-			<p>Heading:</p>
+			<p>Заголовок:</p>
 			<p><input type="text" class="form-control" name="Heading"></p>
-			<p>Content:</p>
+			<p>Новость:</p>
 			<p><input type="text" class="form-control" name="Content"></p>
-			<p>User (can be null):</p>
+			<p>Ваше имя (необязательно):</p>
 			<p><input type="text" class="form-control" name="User"></p>
 		  <p><button class="btn btn-warning" input type="submit">Добавить</button></p>
 		</form>

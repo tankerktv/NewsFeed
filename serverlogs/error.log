@@ -957,3 +957,57 @@
 [Wed May 06 18:12:23.449320 2015] [:error] [pid 2208:tid 1016] [client 92.243.108.9:49746] PHP Notice:  Undefined index: User in D:\\WebServer\\htdocs\\Sash\\4\\bootst\\adding.php on line 45, referer: http://tankerktv.ddns.net/Sash/4/bootst/index.php
 [Wed May 06 18:47:18.680056 2015] [:error] [pid 2208:tid 996] [client 192.168.1.2:52013] PHP Fatal error:  Call to undefined function dateTime() in D:\\WebServer\\htdocs\\Sash\\4\\bootst\\adding.php on line 42, referer: http://tankerktv.ddns.net/Sash/4/bootst/index.php
 [Wed May 06 19:08:26.829179 2015] [core:error] [pid 2208:tid 996] [client 37.29.88.241:44710] AH00135: Invalid method in request E
+[Wed May 06 21:22:08.669434 2015] [:error] [pid 2208:tid 1020] [client 92.243.108.9:51406] PHP Notice:  Undefined index: cUser in D:\\WebServer\\htdocs\\adding.php on line 44, referer: http://tankerktv.ddns.net/
+[Wed May 06 21:23:48.253720 2015] [:error] [pid 2208:tid 1008] [client 92.243.108.9:51423] PHP Notice:  Undefined index: cUser in D:\\WebServer\\htdocs\\adding.php on line 44, referer: http://tankerktv.ddns.net/index.php
+[Wed May 06 21:24:30.013266 2015] [:error] [pid 2208:tid 1008] [client 92.243.108.9:51430] PHP Notice:  Undefined index: User in D:\\WebServer\\htdocs\\adding.php on line 44, referer: http://tankerktv.ddns.net/index.php
+[Wed May 06 21:25:02.591396 2015] [:error] [pid 2208:tid 980] [client 92.243.108.9:51438] PHP Notice:  Undefined index: User in D:\\WebServer\\htdocs\\adding.php on line 44, referer: http://tankerktv.ddns.net/index.php
+[Wed May 06 21:25:02.601368 2015] [:error] [pid 2208:tid 980] [client 92.243.108.9:51438] PHP Notice:  Use of undefined constant undefined - assumed 'undefined' in D:\\WebServer\\htdocs\\adding.php on line 44, referer: http://tankerktv.ddns.net/index.php
+[Wed May 06 21:25:17.660044 2015] [:error] [pid 2208:tid 1008] [client 92.243.108.9:51446] PHP Notice:  Undefined index: User in D:\\WebServer\\htdocs\\adding.php on line 44, referer: http://tankerktv.ddns.net/index.php
+[Wed May 06 21:25:46.141640 2015] [:error] [pid 2208:tid 996] [client 92.243.108.9:51452] PHP Notice:  Undefined index: User in D:\\WebServer\\htdocs\\adding.php on line 44, referer: http://tankerktv.ddns.net/index.php
+[Wed May 06 21:26:56.005438 2015] [:error] [pid 2208:tid 1000] [client 92.243.108.9:51454] PHP Notice:  Undefined index: User in D:\\WebServer\\htdocs\\adding.php on line 44, referer: http://tankerktv.ddns.net/index.php
+[Wed May 06 21:30:18.257302 2015] [mpm_winnt:notice] [pid 1508:tid 432] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed May 06 21:30:20.259768 2015] [mpm_winnt:notice] [pid 2208:tid 508] AH00364: Child: All worker threads have exited.
+[Wed May 06 21:30:20.323368 2015] [mpm_winnt:notice] [pid 1508:tid 432] AH00430: Parent: Child process 2208 exited successfully.
+[Wed May 06 21:30:22.355321 2015] [mpm_winnt:notice] [pid 6732:tid 572] AH00455: Apache/2.4.12 (Win64) PHP/5.4.12 configured -- resuming normal operations
+[Wed May 06 21:30:22.355321 2015] [mpm_winnt:notice] [pid 6732:tid 572] AH00456: Apache Lounge VC10 Server built: Mar 22 2015 11:32:54
+[Wed May 06 21:30:22.355321 2015] [core:notice] [pid 6732:tid 572] AH00094: Command line: 'D:\\WebServer\\httpd\\bin\\httpd.exe -d D:/WebServer/httpd'
+[Wed May 06 21:30:22.355321 2015] [mpm_winnt:notice] [pid 6732:tid 572] AH00418: Parent: Created child process 4348
+[Wed May 06 21:30:22.525693 2015] [mpm_winnt:notice] [pid 4348:tid 500] AH00354: Child: Starting 64 worker threads.
+[Wed May 06 21:32:52.975330 2015] [mpm_winnt:notice] [pid 6732:tid 572] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed May 06 21:32:54.978338 2015] [mpm_winnt:notice] [pid 4348:tid 500] AH00364: Child: All worker threads have exited.
+[Wed May 06 21:32:55.005849 2015] [mpm_winnt:notice] [pid 6732:tid 572] AH00430: Parent: Child process 4348 exited successfully.
+[Wed May 06 21:32:55.733786 2015] [mpm_winnt:notice] [pid 7300:tid 568] AH00455: Apache/2.4.12 (Win64) PHP/5.4.12 configured -- resuming normal operations
+[Wed May 06 21:32:55.733786 2015] [mpm_winnt:notice] [pid 7300:tid 568] AH00456: Apache Lounge VC10 Server built: Mar 22 2015 11:32:54
+[Wed May 06 21:32:55.733786 2015] [core:notice] [pid 7300:tid 568] AH00094: Command line: 'D:\\WebServer\\httpd\\bin\\httpd.exe -d D:/WebServer/httpd'
+[Wed May 06 21:32:55.734786 2015] [mpm_winnt:notice] [pid 7300:tid 568] AH00418: Parent: Created child process 3276
+[Wed May 06 21:32:55.905836 2015] [mpm_winnt:notice] [pid 3276:tid 496] AH00354: Child: Starting 64 worker threads.
+[Wed May 06 21:34:46.257578 2015] [mpm_winnt:notice] [pid 7300:tid 568] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed May 06 21:34:48.259790 2015] [mpm_winnt:notice] [pid 3276:tid 496] AH00364: Child: All worker threads have exited.
+[Wed May 06 21:34:48.282811 2015] [mpm_winnt:notice] [pid 7300:tid 568] AH00430: Parent: Child process 3276 exited successfully.
+[Wed May 06 21:34:48.976540 2015] [mpm_winnt:notice] [pid 7308:tid 560] AH00455: Apache/2.4.12 (Win64) PHP/5.4.12 configured -- resuming normal operations
+[Wed May 06 21:34:48.976540 2015] [mpm_winnt:notice] [pid 7308:tid 560] AH00456: Apache Lounge VC10 Server built: Mar 22 2015 11:32:54
+[Wed May 06 21:34:48.976540 2015] [core:notice] [pid 7308:tid 560] AH00094: Command line: 'D:\\WebServer\\httpd\\bin\\httpd.exe -d D:/WebServer/httpd'
+[Wed May 06 21:34:48.977541 2015] [mpm_winnt:notice] [pid 7308:tid 560] AH00418: Parent: Created child process 5396
+[Wed May 06 21:34:49.140694 2015] [mpm_winnt:notice] [pid 5396:tid 496] AH00354: Child: Starting 64 worker threads.
+[Wed May 06 22:36:51.188629 2015] [mpm_winnt:notice] [pid 7308:tid 560] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed May 06 22:36:53.190261 2015] [mpm_winnt:notice] [pid 5396:tid 496] AH00364: Child: All worker threads have exited.
+[Wed May 06 22:36:53.211282 2015] [mpm_winnt:notice] [pid 7308:tid 560] AH00430: Parent: Child process 5396 exited successfully.
+[Wed May 06 22:36:53.893932 2015] [mpm_winnt:notice] [pid 3728:tid 564] AH00455: Apache/2.4.12 (Win64) PHP/5.4.12 configured -- resuming normal operations
+[Wed May 06 22:36:53.894933 2015] [mpm_winnt:notice] [pid 3728:tid 564] AH00456: Apache Lounge VC10 Server built: Mar 22 2015 11:32:54
+[Wed May 06 22:36:53.894933 2015] [core:notice] [pid 3728:tid 564] AH00094: Command line: 'D:\\WebServer\\httpd\\bin\\httpd.exe -d D:/WebServer/httpd'
+[Wed May 06 22:36:53.894933 2015] [mpm_winnt:notice] [pid 3728:tid 564] AH00418: Parent: Created child process 7484
+[Wed May 06 22:36:54.062066 2015] [mpm_winnt:notice] [pid 7484:tid 500] AH00354: Child: Starting 64 worker threads.
+[Thu May 07 00:56:53.542842 2015] [mpm_winnt:warn] [pid 7484:tid 1192] (OS 121)Превышен таймаут семафора.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Thu May 07 00:57:00.029190 2015] [mpm_winnt:warn] [pid 7484:tid 1192] (OS 121)Превышен таймаут семафора.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Thu May 07 01:01:56.260565 2015] [mpm_winnt:notice] [pid 3728:tid 564] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu May 07 01:01:58.262581 2015] [mpm_winnt:notice] [pid 7484:tid 500] AH00364: Child: All worker threads have exited.
+[Thu May 07 01:01:58.295553 2015] [mpm_winnt:notice] [pid 3728:tid 564] AH00430: Parent: Child process 7484 exited successfully.
+[Thu May 07 01:01:58.985463 2015] [mpm_winnt:notice] [pid 3628:tid 564] AH00455: Apache/2.4.12 (Win64) PHP/5.4.12 configured -- resuming normal operations
+[Thu May 07 01:01:58.985463 2015] [mpm_winnt:notice] [pid 3628:tid 564] AH00456: Apache Lounge VC10 Server built: Mar 22 2015 11:32:54
+[Thu May 07 01:01:58.985463 2015] [core:notice] [pid 3628:tid 564] AH00094: Command line: 'D:\\WebServer\\httpd\\bin\\httpd.exe -d D:/WebServer/httpd'
+[Thu May 07 01:01:58.986464 2015] [mpm_winnt:notice] [pid 3628:tid 564] AH00418: Parent: Created child process 3528
+[Thu May 07 01:01:59.149234 2015] [mpm_winnt:notice] [pid 3528:tid 496] AH00354: Child: Starting 64 worker threads.
+[Thu May 07 01:18:39.141262 2015] [core:error] [pid 3528:tid 992] [client 179.176.59.202:58666] AH00126: Invalid URI in request \x05\xff\x1c9=\x9d"\x81\xe8`\xd8ef\xe7\xe5\x88V\xd4j\xea\x18T\xc8/\x1cVH,/9\xdc\xa1\xc3\x9e&\xfb\x9e}\xf1\r>\xed\x02I\x92\x9b
+[Thu May 07 02:11:02.891811 2015] [core:error] [pid 3528:tid 992] [client 177.204.109.159:51195] AH00126: Invalid URI in request \xab\t\x0e\xce\xe7g
+[Thu May 07 03:45:44.813885 2015] [core:error] [pid 3528:tid 980] [client 62.249.146.31:9262] AH00126: Invalid URI in request x\xc9\x94m\x88\xb4\xbe|\xf6^\x86\xacs3M\r\x06\xb5\x90@\xc2I\xa1\xa7\x15
+[Thu May 07 07:30:16.262413 2015] [core:error] [pid 3528:tid 980] [client 87.237.139.26:40469] AH00126: Invalid URI in request 1\x8d_t\xeb\v\xf1X\xc3\xab\xf1R\xac\xcd\x06]z\x98\xf2\x046\x9eaX\xa5\x9d\xc7\xc5s\xcb\x1a\xba\x191V#\xd0\xec\xa9\x9d~I\x12\xb7|\xb2\x07\xee\xbc\xf0dt
