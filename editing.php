@@ -10,8 +10,8 @@
 	$_POST['Pic'] = "none";
 	if ($_POST['User'] == null){$_POST['User'] = "Anonymous";};
 	if (isset($_POST["Heading"],$_POST["Content"])) {
-	$sql = mysql_query("INSERT INTO `news` (`Date`, `User`, `Content`, `Heading`, `Pic`) 
-						VALUES ('".$_POST['Date']."','".$_POST['User']."','".$_POST['Content']."','".$_POST['Heading']."','".$_POST['Pic']."')
+	$sql = mysql_query("UPDATE `news` SET Heading='".$_POST['Heading']."', Content='".$_POST['Content']."', User='".$_POST['User']."'
+						WHERE ID='".$_POST['ID']."'
 						");
 }
 ?>
