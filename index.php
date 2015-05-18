@@ -4,12 +4,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="shortcut icon" href="assets/ico/favicon.png">
+    <link rel="shortcut icon" href="ico/favicon.png">
 
     <title>Новости</title>
 
-    <link href="dist/css/bootstrap.css" rel="stylesheet">
-	<link href="style.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
   </head>
 
   <body> 
@@ -86,12 +86,10 @@
 			</div>	
 		</div>
 	</div>
+	
+	<hr>
 
-
-<hr>
-
-    <script src="assets/js/jquery.js"></script>
-    <script src="dist/js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 	<script src="js/jquery-1.7.1.min.js"></script>
     <script src="js/json2.js"></script>
     <script src="js/underscore-min.js"></script>
